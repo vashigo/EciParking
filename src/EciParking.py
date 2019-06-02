@@ -47,7 +47,7 @@ def ventana_Principal():
     boton2.pack(padx=5,pady=2,ipadx=20,ipady=5,side=tk.BOTTOM,before=TEXT1)
     boton3 = tk.Button(ventana,text="Cerrar",command=ventana.destroy, font='Helvetica 10 bold', bg="white", fg="black",relief="solid",bd= 5) #boton cerrar
     boton3.pack(padx=5,pady=2,ipadx=20,ipady=5,side=tk.BOTTOM,before=boton2)
-    TEXT2 = tk.Label(ventana,text=" Por: Karen Piedra - Fernanda Cruz ", font='Helvetica 16 bold', bg="white", fg="#A50606", bd= 5,activebackground="white",relief="flat")
+    TEXT2 = tk.Label(ventana,text=" Por: Andrés Vásquez ", font='Helvetica 16 bold', bg="white", fg="#A50606", bd= 5,activebackground="white",relief="flat")
     TEXT2.pack(padx=5,pady=5,ipadx=5,ipady=5,fill=tk.X,side=tk.BOTTOM,before=boton3)
     center(ventana)#centrar ventana
     crea_basededatos()#llamado a la funcion que crea el arcivo de base de datos
